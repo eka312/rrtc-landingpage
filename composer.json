@@ -1,0 +1,13 @@
+{
+    "name": "wajib-pajak/webportal-wajib-pajak",
+    "description": "Kantor Konsultan Pajak (KKP) adalah sebuah lembaga atau perusahaan yang menyediakan jasa konsultasi di bidang perpajakan kepada individu maupun perusahaan. KKP membantu klien dalam berbagai aspek terkait perpajakan, mulai dari perencanaan pajak, penyusunan laporan pajak, hingga penyelesaian sengketa pajak dengan otoritas pajak.",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "monolog/monolog": "^2.0"  
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
