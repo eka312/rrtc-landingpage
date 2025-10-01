@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Beranda </title>
+    <title>Beranda | Wajib Pajak </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Wajib Pajak" name="keywords">
     <meta content="Wajib Pajak" name="description">
@@ -22,6 +22,7 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"/>
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -96,12 +97,38 @@
                     <a href="mengapa.html" class="nav-item nav-link text-primary">Mengapa Kami</a>
                     <a href="layanan.html" class="nav-item nav-link text-primary">Layanan</a>
                     <a href="partner.html" class="nav-item nav-link text-primary">Partner</a>
+                    <a href="berita.html" class="nav-item nav-link text-primary">Berita</a>
                     <a href="contact.html" class="nav-item nav-link text-primary">Kontak</a>
-                    <a href="http://143.198.82.53:3000/" class="btn btn-primary text-primary" role="button">Login</a>
                     
-                    <!-- <a href="konsultasi.html" class="nav-item nav-link text-primary">Konsultasi</a> -->
-                    <!-- <a href="riset.html" class="nav-item nav-link text-primary">Riset</a>
-                    <a href="berita.html" class="nav-item nav-link text-primary">Berita</a> -->
+                    <!-- Dropdown Bahasa -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle text-primary d-flex align-items-center" data-bs-toggle="dropdown">
+                            <!-- Ikon Globe -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" 
+                                 aria-hidden="true" role="presentation" focusable="false" 
+                                 style="height: 18px; width: 18px; fill: currentColor; margin-right: 6px;">
+                              <path d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z"></path>
+                            </svg>
+                            Bahasa
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+                            <li>
+                                <button class="dropdown-item" >
+                                    <span class="flag-icon flag-icon-id"></span> Indonesia
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" >
+                                    <span class="flag-icon flag-icon-gb"></span> English
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                      
+                    <!-- Login button -->
+                    <a href="login.html" class="btn btn-primary" role="button">Login</a>
+                    
                 </div>
             </div>
         </nav>
@@ -549,74 +576,6 @@
 
 
     <!-- Service Start -->
-    <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 750px;">
-                <h1 class="fw-bold text-primary text-uppercase">Layanan Kami</h1>
-                <p class="mb-0">
-                    Kami menyediakan berbagai layanan konsultan pajak & bisnis dengan pendekatan profesional untuk membantu perusahaan menjaga kepatuhan, efisiensi, serta keberlanjutan usaha.
-                </p>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class=" fa fa-file-invoice-dollar text-white"></i>
-                        </div>
-                        <h4 class="mb-3 text-primary">Jasa Penyusunan Laporan Keuangan</h4>
-                        <p class="m-0 text-white">
-                            Laporan keuangan profesional, akurat, dan sesuai standar akuntansi & pajak untuk mendukung keputusan bisnis
-                            dan meningkatkan kredibilitas perusahaan.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class=" fa fa-balance-scale text-white"></i>
-                        </div>
-                        <h4 class="mb-3 text-primary">Jasa Konsultasi Hukum & Perpajakan</h4>
-                        <p class="m-0 text-white">
-                            Solusi hukum dan pajak berbasis regulasi terbaru untuk menjaga kepatuhan, mengurangi risiko, 
-                            dan mengoptimalkan strategi bisnis.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class=" fa fa-search-dollar text-white"></i>
-                        </div>
-                        <h4 class="mb-3 text-primary">Jasa Review Pajak & Laporan Keuangan</h4>
-                        <p class="m-0 text-white">
-                            Review profesional untuk memastikan laporan keuangan dan pajak sesuai regulasi, mengidentifikasi risiko, 
-                            serta memberi rekomendasi perbaikan agar lebih akurat dan efisien.
-                            
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class=" fa fa-user-shield  text-white"></i>
-                        </div>
-                        <h4 class="mb-3 text-primary">Jasa Pendampingan SP2DK</h4>
-                        <p class="m-0 text-white " >
-                            Pendampingan menyeluruh dalam merespons permintaan klarifikasi pajak dengan strategi tepat, dokumen rapi, dan 
-                            analisis komprehensif, sehingga klien lebih tenang dan percaya diri.
-                        </p>
-                    </div>
-                </div>
-                <div class="text-center mt-5">
-                    <a href="layanan.html" class="btn btn-primary px-4 py-2 fw-bold">
-                        Lihat Semua Layanan
-                        <i class="fa fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 750px;">
@@ -793,132 +752,132 @@
     <!--Partner End -->
      
     <!-- Blog Start -->
-        <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                     <h1 class="fw-bold text-primary text-uppercase">Artikel & Berita</h1>
-                    <p class="mb-0">Baca selengkapnya artikel & berita berikut yang kami sajikan sebagai sarana pelajari wawasan / informasi KKP dan perpajakan secara mendalam.</p>
-                </div> -->
-            <!-- Desktop Version -->
-            <!-- <div class="row g-5 d-none d-md-flex">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="blog-item bg-light rounded overflow-hidden d-flex flex-column">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">KKP</a>
-                        </div>
-                        <div class="p-4 flex-grow-1 d-flex flex-column">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3 text-primary">Pemerintah Indonesia Berencana Menurunkan Tarif Pajak untuk UMKM</h4>
-                            <p class="text-white flex-grow-1">Pemerintah Indonesia tengah mengkaji rencana untuk menurunkan tarif pajak bagi Usaha Mikro, Kecil, dan Menengah (UMKM) sebagai bagian dari strategi mendukung pemulihan ekonomi pasca pandemi COVID-19, pertumbuhan sektor UMKM secara signifikan.</p>
-                            <a class="text-uppercase mt-auto" href="#">Selengkapnya <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
+                    <p class="mb-0">Baca selengkapnya artikel & berita berikut yang kami sajikan sebagai sarana pelajari wawasan / informasi RRTC dan perpajakan secara mendalam.</p>
                 </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="blog-item bg-light rounded overflow-hidden d-flex flex-column">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">KKP</a>
-                        </div>
-                        <div class="p-4 flex-grow-1 d-flex flex-column">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3 text-primary">Implementasi e-Faktur dalam Pemenuhan Kewajiban Pajak</h4>
-                            <p class="text-white flex-grow-1">Penggunaan e-Faktur mempercepat proses pencatatan dan pelaporan pajak. Dengan sistem ini, perusahaan dapat mengirim faktur secara elektronik langsung ke pemerintah, meningkatkan efisiensi dan mengurangi kesalahan manusia.</p>
-                            <a class="text-uppercase mt-auto" href="#">Selengkapnya <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="blog-item bg-light rounded overflow-hidden d-flex flex-column">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">KKP</a>
-                        </div>
-                        <div class="p-4 flex-grow-1 d-flex flex-column">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3 text-primary">Rencana Pemerintah Meningkatkan Penerimaan Pajak dari Sektor Digital</h4>
-                            <p class="text-white flex-grow-1">Pemerintah Indonesia merencanakan peningkatan penerimaan pajak dari sektor digital dengan mengenakan pajak e-commerce dan layanan digital lainnya. Langkah ini diambil untuk memperluas basis pajak dan meningkatkan pendapatan negara.</p>
-                            <a class="text-uppercase mt-auto" href="#">Selengkapnya <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- Mobile Version -->
-            <!-- <div id="carouselExampleControls" class="carousel slide d-md-none" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+                <!-- Desktop Version -->
+                <div class="row g-5 d-none d-md-flex">
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                         <div class="blog-item bg-light rounded overflow-hidden d-flex flex-column">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">KKP</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">RRTC</a>
                             </div>
-                            <div class="p-3 flex-grow-1 d-flex flex-column">
-                                <div class="d-flex mb-2">
-                                    <small class="me-2"><i class="far fa-user text-primary me-1"></i>John Doe</small>
-                                    <small><i class="far fa-calendar-alt text-primary me-1"></i>01 Jan, 2045</small>
+                            <div class="p-4 flex-grow-1 d-flex flex-column">
+                                <div class="d-flex mb-3">
+                                    <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                    <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2025</small>
                                 </div>
-                                <h4 class="mb-2 text-primary">Pemerintah Indonesia Berencana Menurunkan Tarif Pajak untuk UMKM</h4>
+                                <h4 class="mb-3 text-primary">Pemerintah Indonesia Berencana Menurunkan Tarif Pajak untuk UMKM</h4>
                                 <p class="text-white flex-grow-1">Pemerintah Indonesia tengah mengkaji rencana untuk menurunkan tarif pajak bagi Usaha Mikro, Kecil, dan Menengah (UMKM) sebagai bagian dari strategi mendukung pemulihan ekonomi pasca pandemi COVID-19, pertumbuhan sektor UMKM secara signifikan.</p>
                                 <a class="text-uppercase mt-auto" href="#">Selengkapnya <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                         <div class="blog-item bg-light rounded overflow-hidden d-flex flex-column">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">KKP</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">RRTC</a>
                             </div>
-                            <div class="p-3 flex-grow-1 d-flex flex-column">
-                                <div class="d-flex mb-2">
-                                    <small class="me-2"><i class="far fa-user text-primary me-1"></i>John Doe</small>
-                                    <small><i class="far fa-calendar-alt text-primary me-1"></i>01 Jan, 2045</small>
+                            <div class="p-4 flex-grow-1 d-flex flex-column">
+                                <div class="d-flex mb-3">
+                                    <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                    <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2025</small>
                                 </div>
-                                <h4 class="mb-2 text-primary">Implementasi e-Faktur dalam Pemenuhan Kewajiban Pajak</h4>
+                                <h4 class="mb-3 text-primary">Implementasi e-Faktur dalam Pemenuhan Kewajiban Pajak</h4>
                                 <p class="text-white flex-grow-1">Penggunaan e-Faktur mempercepat proses pencatatan dan pelaporan pajak. Dengan sistem ini, perusahaan dapat mengirim faktur secara elektronik langsung ke pemerintah, meningkatkan efisiensi dan mengurangi kesalahan manusia.</p>
                                 <a class="text-uppercase mt-auto" href="#">Selengkapnya <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                         <div class="blog-item bg-light rounded overflow-hidden d-flex flex-column">
                             <div class="blog-img position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">KKP</a>
+                                <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">RRTC</a>
                             </div>
-                            <div class="p-3 flex-grow-1 d-flex flex-column">
-                                <div class="d-flex mb-2">
-                                    <small class="me-2"><i class="far fa-user text-primary me-1"></i>John Doe</small>
-                                    <small><i class="far fa-calendar-alt text-primary me-1"></i>01 Jan, 2045</small>
+                            <div class="p-4 flex-grow-1 d-flex flex-column">
+                                <div class="d-flex mb-3">
+                                    <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                    <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2025</small>
                                 </div>
-                                <h4 class="mb-2 text-primary">Rencana Pemerintah Meningkatkan Penerimaan Pajak dari Sektor Digital</h4>
+                                <h4 class="mb-3 text-primary">Rencana Pemerintah Meningkatkan Penerimaan Pajak dari Sektor Digital</h4>
                                 <p class="text-white flex-grow-1">Pemerintah Indonesia merencanakan peningkatan penerimaan pajak dari sektor digital dengan mengenakan pajak e-commerce dan layanan digital lainnya. Langkah ini diambil untuk memperluas basis pajak dan meningkatkan pendapatan negara.</p>
                                 <a class="text-uppercase mt-auto" href="#">Selengkapnya <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <!-- Mobile Version -->
+                <div id="carouselExampleControls" class="carousel slide d-md-none" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="blog-item bg-light rounded overflow-hidden d-flex flex-column">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">RRTC</a>
+                                </div>
+                                <div class="p-3 flex-grow-1 d-flex flex-column">
+                                    <div class="d-flex mb-2">
+                                        <small class="me-2"><i class="far fa-user text-primary me-1"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-1"></i>01 Jan, 2025</small>
+                                    </div>
+                                    <h4 class="mb-2 text-primary">Pemerintah Indonesia Berencana Menurunkan Tarif Pajak untuk UMKM</h4>
+                                    <p class="text-white flex-grow-1">Pemerintah Indonesia tengah mengkaji rencana untuk menurunkan tarif pajak bagi Usaha Mikro, Kecil, dan Menengah (UMKM) sebagai bagian dari strategi mendukung pemulihan ekonomi pasca pandemi COVID-19, pertumbuhan sektor UMKM secara signifikan.</p>
+                                    <a class="text-uppercase mt-auto" href="#">Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="blog-item bg-light rounded overflow-hidden d-flex flex-column">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">RRTC</a>
+                                </div>
+                                <div class="p-3 flex-grow-1 d-flex flex-column">
+                                    <div class="d-flex mb-2">
+                                        <small class="me-2"><i class="far fa-user text-primary me-1"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-1"></i>01 Jan, 2025</small>
+                                    </div>
+                                    <h4 class="mb-2 text-primary">Implementasi e-Faktur dalam Pemenuhan Kewajiban Pajak</h4>
+                                    <p class="text-white flex-grow-1">Penggunaan e-Faktur mempercepat proses pencatatan dan pelaporan pajak. Dengan sistem ini, perusahaan dapat mengirim faktur secara elektronik langsung ke pemerintah, meningkatkan efisiensi dan mengurangi kesalahan manusia.</p>
+                                    <a class="text-uppercase mt-auto" href="#">Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="blog-item bg-light rounded overflow-hidden d-flex flex-column">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                                    <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-3 py-2 px-3" href="#">RRTC</a>
+                                </div>
+                                <div class="p-3 flex-grow-1 d-flex flex-column">
+                                    <div class="d-flex mb-2">
+                                        <small class="me-2"><i class="far fa-user text-primary me-1"></i>John Doe</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-1"></i>01 Jan, 2025</small>
+                                    </div>
+                                    <h4 class="mb-2 text-primary">Rencana Pemerintah Meningkatkan Penerimaan Pajak dari Sektor Digital</h4>
+                                    <p class="text-white flex-grow-1">Pemerintah Indonesia merencanakan peningkatan penerimaan pajak dari sektor digital dengan mengenakan pajak e-commerce dan layanan digital lainnya. Langkah ini diambil untuk memperluas basis pajak dan meningkatkan pendapatan negara.</p>
+                                    <a class="text-uppercase mt-auto" href="#">Selengkapnya <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
-        </div>
-    </div>   -->
+        </div>  
     <!-- Blog End -->
 
     <!--FAQ-->
@@ -1060,17 +1019,10 @@
                                     <i class="bi bi-arrow-right text-primary me-2"></i>
                                     Partner
                                 </a>
-                                
-                                <!-- <a class="text-light mb-2" href="riset.html">
-                                    <i class="bi bi-arrow-right text-primary me-2"></i>
-                                    Riset
-                                </a>
                                 <a class="text-light mb-2" href="berita.html">
                                     <i class="bi bi-arrow-right text-primary me-2"></i>
                                     Berita
-                                </a> -->
-                               
-                                
+                                </a>
                                 <a class="text-light mb-2" href="contact.html">
                                     <i class="bi bi-arrow-right text-primary me-2"></i>
                                     Kontak
